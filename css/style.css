@@ -1,0 +1,63 @@
+/* 
+COLORS:
+orange: hsl(12, 100%, 55%)
+dark gray: hsl(0, 0%, 30%)
+
+FONTS:
+Raleway
+Montserrat
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw !important;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: inline-flex;
+  padding: 10px;
+  color: hsl(12, 100%, 55%);
+}
+
+.marker {
+  width: 37px;
+  height: 37px;
+  margin-right: 10px;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.search-btn {
+  border: none;
+  outline: none;
+  background: none;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.search-img {
+  width: 37px;
+}
+
+.london-back {
+  width: 100vmax;
+  height: auto;
+}
