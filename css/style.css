@@ -21,7 +21,8 @@ html {
 }
 
 body {
-  width: 100vw !important;
+  width: 100%;
+  height: 100vh;
   font-family: "Raleway", sans-serif;
 }
 
@@ -57,7 +58,29 @@ header {
   width: 37px;
 }
 
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .london-back {
-  width: 100vmax;
+  width: 100%;
   height: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+.container {
+  background-color: #fff;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sec-form {
+  background-color: #f00;
+  width: 90%;
 }
